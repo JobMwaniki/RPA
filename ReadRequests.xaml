@@ -169,7 +169,7 @@
                 <OutArgument x:TypeArguments="x:String">[Phone]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[dtRequest.Rows(4)(1).ToString]</InArgument>
+                <InArgument x:TypeArguments="x:String">[dtRequest.Rows(3)(1).ToString]</InArgument>
               </Assign.Value>
             </Assign>
             <Assign sap:VirtualizedContainerService.HintSize="434,82" sap2010:WorkflowViewState.IdRef="Assign_5">
@@ -177,7 +177,7 @@
                 <OutArgument x:TypeArguments="x:String">[Description]</OutArgument>
               </Assign.To>
               <Assign.Value>
-                <InArgument x:TypeArguments="x:String">[dtRequest.Rows(5)(1).ToString]</InArgument>
+                <InArgument x:TypeArguments="x:String">[dtRequest.Rows(4)(1).ToString]</InArgument>
               </Assign.Value>
             </Assign>
             <ui:LogMessage DisplayName="Log Message" sap:VirtualizedContainerService.HintSize="434,141" sap2010:WorkflowViewState.IdRef="LogMessage_1" Level="[UiPath.Core.Activities.LogLevel.Info]" Message="[&quot;The values have been saved successfully&quot;]" />
